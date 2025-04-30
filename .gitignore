@@ -1,0 +1,48 @@
+# ====== BACKEND (Spring Boot) ======
+/backend/target/
+/backend/.mvn/
+/backend/.classpath
+/backend/.project
+/backend/.settings
+/backend/mvnw
+/backend/mvnw.cmd
+
+# Logs
+*.log
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# STS
+.apt_generated
+.factorypath
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# ====== FRONTEND (Angular) ======
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/cache
+/frontend/.angular/*
+
+# Environment files
+**/.env
+**/.env.local
+**/src/environments/environment*.ts
+
+# Fichiers spécifiques à Maven
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
